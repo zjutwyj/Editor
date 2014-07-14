@@ -166,3 +166,16 @@
     cursor: pointer;
     color: red;
 }
+
+.edui-for-jhwimage .edui-icon {
+    background-position: -380px 0;
+}
+.edui-for-qq .edui-icon {
+    background-position: -724px -76px;
+}
+.edui-for-qrcode .edui-icon{
+    background-position : -747px -76px;
+}
+.edui-for-jhwflash .edui-icon{
+    background-position : -761px -99px;
+}
