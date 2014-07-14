@@ -47,9 +47,11 @@
             'print', 'preview', 'searchreplace', 'help', 'drafts'
         ]]
         //当鼠标放在工具栏上时显示的tooltip提示,留空支持自动多语言配置，否则以配置值为准
-        //,labelMap:{
-        //    'anchor':'', 'undo':''
-        //}
+        ,labelMap:{
+            'jhwimage':'添加图片',
+            'qq' : '添加QQ、MSN、阿里旺旺等',
+            'qrcode' : '添加二维码'
+        }
 
         //语言配置项,默认是zh-cn。有需要的话也可以使用如下这样的方式来自动多语言切换，当然，前提条件是lang文件夹下存在对应的语言文件：
         //lang值也可以通过自动获取 (navigator.language||navigator.browserLanguage ||navigator.userLanguage).toLowerCase()
@@ -61,7 +63,7 @@
         //,theme:'default'
         //,themePath:URL +"themes/"
 
-        //,zIndex : 900     //编辑器层级的基数,默认是900
+        ,zIndex : 999999     //编辑器层级的基数,默认是900
 
         //针对getAllHtml方法，会在对应的head标签中增加该编码设置。
         //,charset:"utf-8"
@@ -89,8 +91,8 @@
         //首行缩进距离,默认是2em
         //,indentValue:'2em'
 
-        //,initialFrameWidth:1000  //初始化编辑器宽度,默认1000
-        //,initialFrameHeight:320  //初始化编辑器高度,默认320
+        ,initialFrameWidth:'100%'  //初始化编辑器宽度,默认1000
+        ,initialFrameHeight:620  //初始化编辑器高度,默认320
 
         //,readonly : false //编辑器初始化结束后,编辑区域是否是只读的，默认是false
 

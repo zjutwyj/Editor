@@ -1,7 +1,7 @@
 /*!
  * UEditor
  * version: ueditor
- * build: Mon Jul 14 2014 13:58:59 GMT+0800 (中国标准时间)
+ * build: Mon Jul 14 2014 18:28:24 GMT+0800 (中国标准时间)
  */
 
 (function(){
